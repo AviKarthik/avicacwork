@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Avi_app1",
+    "slug": "Avi_app1",
+    "scheme": "Avi-app1-AviK",
+    "extra": {
+      "googleAuth": {
+        "expoClientId": "117636907647-sopuv6mfdikbchal6grv9ftk3gauk636.apps.googleusercontent.com"
+    },
+    "firebase": {
+      "apiKey": "AIzaSyBI_7WLt6KeMmeiJu0QLiN9bcN9Z7-g0Cs",
+      "authDomain": "avi-app1-avik.firebaseapp.com",
+      "projectId": "avi-app1-avik",
+      "storageBucket": "avi-app1-avik.firebasestorage.app",
+      "messagingSenderId": "117636907647",
+      "appId": "1:117636907647:web:579e341980dbc61bb8b54a",
+    }
+    },
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "scheme": "aviapp1",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aviapp1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.aviapp1"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-asset",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#ffffff",
+          "image": "./assets/splash-icon.png"
+        }
+      ],
+      "expo-web-browser"
+    ]
+  }
+}
